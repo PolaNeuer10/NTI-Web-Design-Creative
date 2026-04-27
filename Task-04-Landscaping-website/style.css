@@ -1,0 +1,382 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+.button-spical {
+  color: white !important;
+  background-color: #2da884 !important;
+}
+.main-section {
+  height: 100vh;
+  background-image: url(imges/1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.nav-bar {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+.logo {
+  display: inline-block;
+  width: calc(100% / 3);
+  font-size: 40px;
+  color: white;
+}
+.menu {
+  display: inline-block;
+  width: calc(100% / 3);
+}
+.menu li {
+  display: inline-block;
+  margin: 2% 20px;
+}
+.menu li a {
+  color: white;
+  font-size: 20px;
+}
+.button {
+  display: inline;
+  width: calc(100% / 3);
+}
+.button button {
+  width: 130px;
+  border: 0px solid white;
+  border-radius: 20px;
+  height: 40px;
+  margin: 40px;
+  background-color: white;
+  color: #2da884;
+  font-size: 22px;
+}
+.contat-main-section {
+  text-align: center;
+  color: white;
+  margin-top: 24px;
+}
+.contat-main-section h1 {
+  font-size: 100px;
+}
+.contat-main-section p {
+  font-size: 16px;
+}
+.button-main-section {
+  text-align: center;
+  margin: auto;
+}
+.button-main-section button {
+  width: 180px;
+  border: 0px solid white;
+  border-radius: 40px;
+  height: 88px;
+  margin: 20px;
+  background-color: white;
+  color: #2da884;
+  font-size: 20px;
+}
+.card-main-section {
+  width: 60%;
+  background-color: white;
+  margin: auto;
+  border: 0px solid;
+  border-radius: 15px;
+  height: 120px;
+}
+.box-card {
+  width: 24%;
+  text-align: center;
+  margin: auto;
+  display: inline-block;
+  border-right: 1px black solid;
+}
+.box-card h3 {
+  font-size: 40px;
+  margin: 25px;
+}
+.box-card span {
+  color: #2da884;
+}
+.box-card p {
+  margin-top: 0px;
+  font-size: 10px;
+  color: #5d5d5d;
+}
+#spical-card {
+  border-right: 0px !important;
+}
+.about-us {
+  height: 100vh;
+  background-color: white;
+  margin-bottom: 30px;
+}
+.text-about {
+  display: inline-block;
+  margin: 40px 2%;
+}
+.about-us .text-about h2 {
+  font-size: 60px;
+  color: #232a42;
+}
+.about-us .text-about span {
+  color: #2da884;
+}
+.about-us .text-about p {
+  color: #525252;
+}
+.card-about {
+  vertical-align: top;
+  width: 100%;
+}
+.lift-card {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
+.lift-card .card {
+  margin: auto;
+  margin-top: 20px;
+  width: 47%;
+  padding: 20px;
+  border: 0px solid;
+  border-radius: 16px;
+  box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.09);
+}
+.lift-card .card img {
+  width: 50px;
+  margin: 0px 0px 20px 0px;
+}
+.lift-card .card h3 {
+  margin: 0px 0px 20px 0px;
+  font-size: 25px;
+}
+.lift-card .card span {
+  color: #2da884;
+}
+.lift-card .card p {
+  font-size: 10px;
+  color: #525252;
+}
+.right-card {
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+}
+.right-card .img-card {
+  border-radius: 16px;
+  width: 70%;
+  overflow: hidden;
+  margin: auto;
+  vertical-align: middle;
+}
+.right-card .img-card img {
+  height: 430px;
+  width: 100%;
+}
+.why-choose-us {
+  height: 80vh;
+}
+.why-choose-us .contant-choose {
+  width: 100%;
+}
+.contant-choose .left-coulm {
+  width: 49%;
+  margin: auto;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 50px;
+}
+.contant-choose .left-coulm img {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.contant-choose .right-coulm {
+  width: 49%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.right-coulm .text-right-coulm h3 {
+  font-size: 67px;
+  color: #2da884;
+}
+.right-coulm .text-right-coulm span {
+  color: #232a42;
+}
+.right-coulm .text-right-coulm p {
+  font-size: 16px;
+  color: #232a42;
+}
+
+.text-icon {
+  width: 100%;
+  margin-top: 30px;
+}
+.text-icon img {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  vertical-align: middle;
+  margin-right: 200px;
+}
+.text-icon h5 {
+  display: inline-block;
+  font-size: 28px;
+  vertical-align: middle;
+}
+.our-services {
+  height: 100vh;
+}
+.our-services .text-our-services {
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 2%;
+}
+.our-services .text-our-services h2 {
+  font-size: 67px;
+  color: #232a42;
+}
+.our-services .text-our-services span {
+  color: #2da884;
+}
+.our-services .text-our-services p {
+  font-size: 16px;
+  color: #525252;
+}
+.our-services .card-our-services {
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+}
+.our-services .card-our-services .card {
+  width: 31%;
+  display: inline-block;
+  margin-right: 10px;
+  border-radius: 16px;
+  box-shadow: 5px 3px 5px 3px rgba(0, 0, 0, 0.09);
+  height: 200px;
+  padding: 5px;
+  vertical-align: top;
+}
+.our-services .card-our-services .card span {
+  color: #2da884;
+}
+.our-services .card-our-services .card p {
+  color: #232a42;
+}
+.our-services .card-our-services .card h3 {
+  font-size: 28px;
+}
+.our-services .card-our-services .card img {
+  width: 50px;
+  height: 50px;
+}
+.pricing {
+  height: 100vh;
+  width: 100%;
+  background-color: burlywood;
+}
+.pricing .header-pricing {
+  display: inline-block;
+  width: 45%;
+  text-align: center;
+  margin: 30px 0px 0px 400px;
+}
+.pricing .header-pricing h2 {
+  font-size: 67px;
+  margin-bottom: 10px;
+}
+.pricing .header-pricing span {
+  color: #2da884;
+}
+.pricing .header-pricing p {
+  color: #232a42;
+  font-size: 16px;
+}
+.card-price {
+  width: 95%;
+  margin: auto;
+}
+.card-price .basic-stander {
+  width: 30%;
+  background-color: #2da884;
+  height: 60px;
+  border-radius: 20px 20px 0px 0px;
+  display: inline-block;
+}
+.card-price .basic-stander .frist {
+  display: inline-block;
+}
+.card-price .basic-stander .frist h3 {
+  font-size: 21px;
+  display: inline-block;
+  color: white;
+}
+.card-price .basic-stander .frist p {
+  font-size: 21px;
+  color: #2da884;
+  display: inline-block;
+  border: 0px solid transparent;
+  width: 150px;
+  margin-left: 50px;
+  height: 30px;
+  border-radius: 100px;
+  margin-top: 8px;
+  background-color: white;
+  padding-left: 12px;
+}
+.card-price .basic-stander .second {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  background-color: white;
+  color: #2da884;
+  border-bottom: 1px solid #2da884;
+}
+.card-price .basic-stander .second h4 {
+  font-size: 67px;
+  margin-top: 20px;
+}
+.card-price .basic-stander .third {
+  width: 100%;
+  height: 220px;
+  background-color: white;
+}
+.card-price .basic-stander .third img {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-left: 30px;
+  margin-top: 5px;
+  vertical-align: middle;
+}
+.card-price .basic-stander .third p {
+  display: inline-block;
+  margin-left: 120px;
+  margin-top: 5px;
+  vertical-align: middle;
+}
+.card-price .basic-stander .third .items-third {
+  border-bottom: 1px solid #2da884;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.card-price .basic-stander .four{
+    width: 100%;
+    height: 90px;
+    background-color: white;
+    border-radius :0px 0px 20px 20px ;
+    text-align: center;
+    padding-top: 30px;
+}
+.card-price .basic-stander .four p{
+    width: 150px;
+    height: 50px;
+    border: 0px solid transparent;
+    border-radius: 100px;
+    margin: auto;
+    background-color: #2da884;
+}
